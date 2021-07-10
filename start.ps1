@@ -1,4 +1,5 @@
-echo "Bienvenue dans le script de lancement des application, profile"
+Write-Host "Bienvenue dans le script de lancement des application, profile" -BackgroundColor DarkGreen
+
 $isMode = Read-Host "Tu veut une application [app] ou un profile [profil] ou un ficher [file] ? "
 if($isMode -eq "app") 
 { 
@@ -9,6 +10,6 @@ if($isMode -eq "app")
   .\file\fileControlle.ps1
 }else{
 
-echo "je suis desole mais je ne comprend pas ce que tu veut faire, dans les crochet il y a ce que tu dois mettre"
+Write-Host "je suis desole mais je ne comprend pas ce que tu veut faire, dans les crochet il y a ce que tu dois mettre"
 
 }

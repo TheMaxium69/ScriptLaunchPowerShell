@@ -1,1 +1,1 @@
-echo 'je suis le ficher app'
+Write-Host 'je suis le ficher app'

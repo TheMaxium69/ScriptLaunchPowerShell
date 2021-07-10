@@ -1,1 +1,1 @@
-echo 'je suis les profiles'
+Write-Host 'je suis les profiles'
