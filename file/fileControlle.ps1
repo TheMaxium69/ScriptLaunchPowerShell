@@ -16,12 +16,16 @@ Do{
 if($isMethode -eq "shell") 
 { 
     Write-Host "Donne moi le lien du ficher ?" -ForegroundColor Cyan
-    Write-Host "Exemple : en PowerShell exemple : D:\Github\MagnifiqueProjet" -ForegroundColor green
+    Write-Host "Exemple : en PowerShell exemple : D:\Github\MagnifiqueProjet" -ForegroundColor Magenta
     $url = Read-Host
+
+    Write-Host "changement dans le terminal effectuez" -ForegroundColor Green
     cd $url
 }elseif ($isMethode -eq "ex"){
     Write-Host "Donne moi le lien du ficher ?" -ForegroundColor Cyan
-    Write-Host "Exemple : en PowerShell exemple : D:\Github\MagnifiqueProjet" -ForegroundColor green
+    Write-Host "Exemple : en PowerShell exemple : D:\Github\MagnifiqueProjet" -ForegroundColor Magenta
     $url = Read-Host
+
+    Write-Host "Lancement de l'explorateur" -ForegroundColor Green
     start $url
 }

@@ -1,4 +1,4 @@
-Write-Host "Bienvenue dans le script de lancement des application, profile" -BackgroundColor DarkGreen
+Write-Host "Bienvenue dans le script de lancement des application, profile, file etc .." -BackgroundColor DarkGreen
 Write-Host "Tu veut une application ou un profile ou un ficher ? " -ForegroundColor Cyan
 Write-Host "1. app" -ForegroundColor yellow
 Write-Host "2. profil" -ForegroundColor yellow
